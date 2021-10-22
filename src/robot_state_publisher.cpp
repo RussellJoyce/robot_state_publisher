@@ -144,7 +144,6 @@ RobotStatePublisher::RobotStatePublisher(const rclcpp::NodeOptions & options)
 
   publishFixedTransforms();
 
-
   // Now that we have successfully declared the parameters and done all
   // necessary setup, install the callback for updating parameters.
   param_cb_ = add_on_set_parameters_callback(
